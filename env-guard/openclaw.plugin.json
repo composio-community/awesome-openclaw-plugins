@@ -1,0 +1,23 @@
+{
+  "id": "env-guard",
+  "name": "Env Guard",
+  "description": "Prevents accidental exposure of environment variables and secrets in agent output",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "extraPatterns": {
+        "type": "array",
+        "items": { "type": "string" },
+        "default": [],
+        "description": "Additional regex patterns to detect secrets"
+      },
+      "blockOnDetection": {
+        "type": "boolean",
+        "default": true,
+        "description": "Block tool execution when secrets are detected in arguments"
+      }
+    }
+  }
+}

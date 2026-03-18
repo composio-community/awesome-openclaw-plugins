@@ -1,0 +1,27 @@
+{
+  "id": "pomodoro",
+  "name": "Pomodoro",
+  "description": "Pomodoro timer for focused coding sessions with break reminders",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "workMinutes": {
+        "type": "number",
+        "default": 25,
+        "description": "Work session duration in minutes"
+      },
+      "breakMinutes": {
+        "type": "number",
+        "default": 5,
+        "description": "Short break duration in minutes"
+      },
+      "longBreakMinutes": {
+        "type": "number",
+        "default": 15,
+        "description": "Long break duration (every 4 sessions)"
+      }
+    }
+  }
+}

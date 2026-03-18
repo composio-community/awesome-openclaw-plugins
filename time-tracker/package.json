@@ -1,0 +1,13 @@
+{
+  "name": "@awesome-openclaw/time-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Time tracking plugin for OpenClaw",
+  "type": "module",
+  "peerDependencies": {
+    "openclaw": ">=2026.3.2"
+  },
+  "openclaw": {
+    "extensions": ["./index.ts"]
+  }
+}

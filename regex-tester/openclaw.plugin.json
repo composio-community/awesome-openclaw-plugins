@@ -1,0 +1,11 @@
+{
+  "id": "regex-tester",
+  "name": "Regex Tester",
+  "description": "Test, debug, and explain regular expressions with match highlighting",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

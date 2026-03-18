@@ -1,0 +1,22 @@
+{
+  "id": "api-tester",
+  "name": "API Tester",
+  "description": "Quick HTTP API testing — send requests, inspect responses, and save test collections",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "timeout": {
+        "type": "number",
+        "default": 30000,
+        "description": "Request timeout in milliseconds"
+      },
+      "defaultHeaders": {
+        "type": "object",
+        "default": {},
+        "description": "Default headers to include in all requests"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "time-tracker",
+  "name": "Time Tracker",
+  "description": "Track time spent on tasks and projects across sessions",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "dataDir": {
+        "type": "string",
+        "description": "Directory to store time tracking data (defaults to ~/.openclaw/time-tracker)"
+      }
+    }
+  }
+}

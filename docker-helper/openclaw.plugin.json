@@ -1,0 +1,17 @@
+{
+  "id": "docker-helper",
+  "name": "Docker Helper",
+  "description": "Docker container management, image inspection, and Dockerfile analysis",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "composeFile": {
+        "type": "string",
+        "default": "docker-compose.yml",
+        "description": "Default compose file name"
+      }
+    }
+  }
+}

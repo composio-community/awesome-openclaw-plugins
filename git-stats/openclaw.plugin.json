@@ -1,0 +1,28 @@
+{
+  "id": "git-stats",
+  "name": "Git Stats",
+  "description": "Git repository statistics and insights for your agent",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "maxCommits": {
+        "type": "number",
+        "default": 100,
+        "description": "Maximum number of commits to analyze"
+      },
+      "includeFileStats": {
+        "type": "boolean",
+        "default": true,
+        "description": "Include per-file change statistics"
+      }
+    }
+  },
+  "uiHints": {
+    "maxCommits": {
+      "label": "Max Commits",
+      "advanced": true
+    }
+  }
+}

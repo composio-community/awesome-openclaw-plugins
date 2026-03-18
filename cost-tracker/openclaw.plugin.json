@@ -1,0 +1,32 @@
+{
+  "id": "cost-tracker",
+  "name": "Cost Tracker",
+  "description": "Track token usage and estimated costs per session, tool, and model",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "dataDir": {
+        "type": "string",
+        "description": "Directory to store usage data (defaults to ~/.openclaw/cost-tracker)"
+      },
+      "dailyBudget": {
+        "type": "number",
+        "default": 0,
+        "description": "Daily budget in USD (0 = unlimited)"
+      },
+      "warnAtPercent": {
+        "type": "number",
+        "default": 80,
+        "description": "Warn when this percentage of daily budget is reached"
+      }
+    }
+  },
+  "uiHints": {
+    "dailyBudget": {
+      "label": "Daily Budget (USD)",
+      "placeholder": "10.00"
+    }
+  }
+}

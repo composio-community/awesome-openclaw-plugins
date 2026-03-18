@@ -1,0 +1,23 @@
+{
+  "id": "changelog-gen",
+  "name": "Changelog Generator",
+  "description": "Auto-generate changelogs from conventional commits",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "format": {
+        "type": "string",
+        "enum": ["keepachangelog", "conventional", "simple"],
+        "default": "keepachangelog",
+        "description": "Output format for the changelog"
+      },
+      "groupByType": {
+        "type": "boolean",
+        "default": true,
+        "description": "Group entries by commit type (feat, fix, etc.)"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "dep-audit",
+  "name": "Dependency Audit",
+  "description": "Audit project dependencies for known vulnerabilities and outdated packages",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "severityThreshold": {
+        "type": "string",
+        "enum": ["low", "moderate", "high", "critical"],
+        "default": "moderate",
+        "description": "Minimum severity level to report"
+      }
+    }
+  }
+}

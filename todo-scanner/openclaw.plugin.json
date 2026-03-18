@@ -1,0 +1,24 @@
+{
+  "id": "todo-scanner",
+  "name": "TODO Scanner",
+  "description": "Scans codebase for TODO, FIXME, HACK, and other annotations",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "tags": {
+        "type": "array",
+        "items": { "type": "string" },
+        "default": ["TODO", "FIXME", "HACK", "XXX", "BUG", "WARN"],
+        "description": "Comment tags to scan for"
+      },
+      "excludeDirs": {
+        "type": "array",
+        "items": { "type": "string" },
+        "default": ["node_modules", ".git", "dist", "build", "vendor"],
+        "description": "Directories to exclude from scanning"
+      }
+    }
+  }
+}

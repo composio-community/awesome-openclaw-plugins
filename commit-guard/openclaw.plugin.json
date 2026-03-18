@@ -1,0 +1,28 @@
+{
+  "id": "commit-guard",
+  "name": "Commit Guard",
+  "description": "Pre-commit validation — enforces conventional commits, prevents large files, and blocks secret commits",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enforceConventional": {
+        "type": "boolean",
+        "default": true,
+        "description": "Require conventional commit format"
+      },
+      "maxFileSizeKb": {
+        "type": "number",
+        "default": 500,
+        "description": "Maximum file size in KB to allow in commits"
+      },
+      "blockedPatterns": {
+        "type": "array",
+        "items": { "type": "string" },
+        "default": [".env", "credentials.json", "*.pem", "*.key", "id_rsa"],
+        "description": "File patterns to block from commits"
+      }
+    }
+  }
+}

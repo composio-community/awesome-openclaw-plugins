@@ -1,0 +1,22 @@
+{
+  "id": "pr-review",
+  "name": "PR Review Helper",
+  "description": "Summarize PR changes, suggest reviewers, and check for common issues",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "baseBranch": {
+        "type": "string",
+        "default": "main",
+        "description": "Default base branch for comparisons"
+      },
+      "maxDiffLines": {
+        "type": "number",
+        "default": 2000,
+        "description": "Max diff lines to analyze before truncating"
+      }
+    }
+  }
+}
