@@ -1,0 +1,13 @@
+{
+  "name": "@awesome-openclaw/claude-code-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Claude Code integration plugin for OpenClaw — plan, execute, and multi-agent coding",
+  "type": "module",
+  "peerDependencies": {
+    "openclaw": ">=2026.3.2"
+  },
+  "openclaw": {
+    "extensions": ["./index.ts"]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "cortex-memory",
+  "kind": "memory",
+  "name": "Cortex Memory",
+  "description": "4-tier persistent memory (Working → Episodic → Semantic → Procedural) with Bayesian beliefs and people graph. Local-first, Rust-native.",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "dbPath": {
+        "type": "string",
+        "default": "~/.cortex/memory.db",
+        "description": "Path to SQLite database"
+      },
+      "binaryPath": {
+        "type": "string",
+        "description": "Path to cortex-mcp-server binary (auto-detected if on PATH)"
+      },
+      "autoCapture": {
+        "type": "boolean",
+        "default": true,
+        "description": "Store conversation context after each turn"
+      },
+      "autoRecall": {
+        "type": "boolean",
+        "default": true,
+        "description": "Inject relevant memories before each turn"
+      },
+      "topK": {
+        "type": "number",
+        "default": 10,
+        "description": "Max memories to retrieve per recall"
+      }
+    }
+  },
+  "uiHints": {
+    "dbPath": {
+      "label": "Database Path",
+      "placeholder": "~/.cortex/memory.db"
+    }
+  }
+}

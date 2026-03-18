@@ -1,0 +1,41 @@
+{
+  "id": "claude-code",
+  "name": "Claude Code Bridge",
+  "description": "Integrate Claude Code into OpenClaw — plan, exec, and multi-agent coding via Slack or any channel",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "allowedPaths": {
+        "type": "array",
+        "items": { "type": "string" },
+        "default": [],
+        "description": "Directories Claude Code is allowed to operate in (empty = all denied)"
+      },
+      "maxTimeoutSecs": {
+        "type": "number",
+        "default": 600,
+        "description": "Max task duration in seconds"
+      },
+      "maxConcurrent": {
+        "type": "number",
+        "default": 2,
+        "description": "Max concurrent Claude Code processes"
+      },
+      "claudeOauthToken": {
+        "type": "string",
+        "description": "Claude Code OAuth token (for headless/gateway environments)"
+      }
+    }
+  },
+  "uiHints": {
+    "claudeOauthToken": {
+      "label": "Claude OAuth Token",
+      "sensitive": true
+    },
+    "allowedPaths": {
+      "label": "Allowed Directories"
+    }
+  }
+}

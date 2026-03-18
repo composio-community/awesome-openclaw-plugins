@@ -1,0 +1,14 @@
+{
+  "name": "@awesome-openclaw/apple-pim",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Native macOS Calendar, Reminders, Contacts, and Mail plugin for OpenClaw",
+  "type": "module",
+  "os": ["darwin"],
+  "peerDependencies": {
+    "openclaw": ">=2026.3.2"
+  },
+  "openclaw": {
+    "extensions": ["./index.ts"]
+  }
+}

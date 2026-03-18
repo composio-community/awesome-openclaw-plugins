@@ -1,0 +1,13 @@
+{
+  "name": "@awesome-openclaw/lightcone",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cloud computer-use browser automation via Lightcone for OpenClaw",
+  "type": "module",
+  "peerDependencies": {
+    "openclaw": ">=2026.3.2"
+  },
+  "openclaw": {
+    "extensions": ["./index.ts"]
+  }
+}

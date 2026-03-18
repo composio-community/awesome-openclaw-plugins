@@ -1,0 +1,16 @@
+{
+  "name": "@awesome-openclaw/n8n-as-code",
+  "version": "0.1.0",
+  "private": true,
+  "description": "n8n workflow automation plugin for OpenClaw — conversational workflow editing with full schema knowledge",
+  "type": "module",
+  "peerDependencies": {
+    "openclaw": ">=2026.3.2"
+  },
+  "dependencies": {
+    "n8n-as-code": ">=0.1.0"
+  },
+  "openclaw": {
+    "extensions": ["./index.ts"]
+  }
+}

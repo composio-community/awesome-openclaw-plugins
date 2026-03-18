@@ -1,0 +1,30 @@
+{
+  "id": "apple-pim",
+  "name": "Apple PIM",
+  "description": "Native macOS Calendar, Reminders, Contacts, and Mail.app tools via Swift CLIs",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "binDir": {
+        "type": "string",
+        "description": "Path to Swift CLI binaries (auto-detected if on PATH)"
+      },
+      "profile": {
+        "type": "string",
+        "description": "Config profile name for multi-agent isolation"
+      },
+      "domains": {
+        "type": "object",
+        "properties": {
+          "calendars": { "type": "boolean", "default": true },
+          "reminders": { "type": "boolean", "default": true },
+          "contacts": { "type": "boolean", "default": true },
+          "mail": { "type": "boolean", "default": true }
+        },
+        "description": "Enable/disable specific PIM domains"
+      }
+    }
+  }
+}

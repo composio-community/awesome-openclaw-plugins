@@ -4,7 +4,7 @@
 
 OpenClaw has a growing ecosystem of community plugins that extend its capabilities far beyond the defaults. Many of these started as unmerged PRs in the main repo's docs, and deserve visibility.
 
-This repo includes **15 ready-to-install plugins** in the [`plugins/`](./plugins) directory, plus a curated list of 20+ community plugins from around the ecosystem.
+This repo includes **ready-to-install plugins** in the [`plugins/`](./plugins) directory, plus a curated list of community plugins from around the ecosystem.
 
 **Star this repo** to keep up with the best community plugins as they ship.
 
@@ -59,7 +59,7 @@ Send a Slack message to #general saying "hello from openclaw"
 
 ## Included Plugins
 
-These 15 plugins live in the [`plugins/`](./plugins) directory. Install any of them directly:
+Install any plugin from this repo directly:
 
 ```bash
 openclaw plugins install ./plugins/<plugin-name>
@@ -84,6 +84,11 @@ openclaw plugins install -l ./plugins/<plugin-name>
 | [docker-helper](./plugins/docker-helper) | `docker_status`, `docker_logs`, `dockerfile_lint`, `docker_compose_status` | Docker container management, log viewer, and Dockerfile linter |
 | [api-tester](./plugins/api-tester) | `api_request`, `api_multi` | Quick HTTP API testing — send requests, auto-format JSON, batch test multiple endpoints |
 | [time-tracker](./plugins/time-tracker) | `time_start`, `time_stop`, `time_status`, `time_report` | Track time spent on tasks/projects with reports by period, project, and tags |
+| [lightcone](./plugins/lightcone) | `lightcone_browse`, `lightcone_session_create`, `lightcone_session_action`, `lightcone_session_close` | Cloud browser/desktop automation via Lightcone Northstar — no local Chrome needed ([PR #48298](https://github.com/openclaw/openclaw/pull/48298)) |
+| [cortex-memory](./plugins/cortex-memory) | `memory_search`, `memory_store`, `memory_get`, `belief_observe`, `fact_add`, `person_resolve` | 4-tier persistent memory (Working → Episodic → Semantic → Procedural) with Bayesian beliefs. Rust-native, local-first ([PR #48275](https://github.com/openclaw/openclaw/pull/48275)) |
+| [n8n-as-code](./plugins/n8n-as-code) | `n8nac` | Conversational n8n workflow automation — 537 node schemas, 10k+ properties, bidirectional sync with live instances ([PR #45214](https://github.com/openclaw/openclaw/pull/45214)) |
+| [claude-code-bridge](./plugins/claude-code-bridge) | `claude_plan`, `claude_exec`, `claude_teams` | Run Claude Code from OpenClaw — read-only analysis, execution, and multi-agent parallel coding ([PR #27071](https://github.com/openclaw/openclaw/pull/27071)) |
+| [apple-pim](./plugins/apple-pim) | `apple_pim_calendar`, `apple_pim_reminder`, `apple_pim_contact`, `apple_pim_mail` | Native macOS Calendar, Reminders, Contacts, and Mail.app via Swift CLIs. macOS only ([PR #21497](https://github.com/openclaw/openclaw/pull/21497)) |
 
 Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.json` + `index.ts` + `package.json`) and works out of the box.
 
