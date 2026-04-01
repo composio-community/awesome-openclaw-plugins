@@ -115,6 +115,7 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 | [ClawSec](https://github.com/prompt-security/clawsec) | prompt-security | 778 | Complete security skill suite — SOUL.md drift detection, live NVD CVE polling, automated audits detecting prompt injection, and SHA256 skill integrity verification. |
 | [SecureClaw](https://github.com/adversa-ai/secureclaw) | adversa-ai | 274 | OWASP Agentic Security Top 10 aligned. 56 automated checks across 8 categories scanning for exposed gateway ports, weak permissions, missing auth, plaintext credentials, and disabled sandboxing. |
 | [GuardSpine](https://github.com/DNYoussef/guardspine-openclaw) | DNYoussef | — | Deny-by-default tool gating with L0–L4 risk tiers, SHA-256 hash-chained evidence packs, local 3-model council voting (Qwen/Falcon/Coder via Ollama), and Discord approval notifications. |
+| [@axonflow/openclaw](https://github.com/getaxonflow/axonflow-openclaw-plugin) | getaxonflow | — | Policy enforcement, PII detection, and audit trails for OpenClaw tool execution. Integrates with AxonFlow's governance engine for real-time input/output checks. |
 
 ### Observability & Cost
 
