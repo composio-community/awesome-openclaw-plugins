@@ -123,6 +123,7 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 | [Manifest](https://github.com/mnfst/manifest) | mnfst | 3.8k | Smart LLM routing and real-time cost observability. Cuts AI costs up to 70% with intelligent model selection. Embedded NestJS server with SQLite, OpenTelemetry traces. Tracks tokens and costs across 28+ models. |
 | [openclaw-observability-plugin](https://github.com/henrikrexed/openclaw-observability-plugin) | henrikrexed | — | Full OpenTelemetry observability with connected trace hierarchy (request → agent turn → tool calls), per-tool timing, and token usage tracking. Supports Dynatrace, Grafana Cloud, and local OTLP collectors. |
 | [openclaw-observatory](https://github.com/ThisIsJeron/openclaw-observatory) | ThisIsJeron | — | Self-hosted dashboard monitoring sessions, context window usage, and costs across all gateways. |
+| [Silos Dashboard](https://github.com/cheapestinference/silos) | cheapestinference | — | Open-source (MIT) multi-tenant dashboard for OpenClaw — shared browser session, multi-channel management (WhatsApp, Telegram, Discord, Slack), skills marketplace, Docker one-command deploy, agent/session analytics, cron jobs, i18n (en/es/fr/de). Also available as [managed hosting](https://silosplatform.com). |
 
 ### Multi-Agent
 
