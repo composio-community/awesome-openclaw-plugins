@@ -155,6 +155,10 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 - **[OpenClaw-IRC-Plugin](https://github.com/kcherry497/OpenClaw-IRC-Plugin)** — IRC interface with KISS security principles.
 - **[clawdtalk-client](https://github.com/team-telnyx/clawdtalk-client)** — Voice calling and SMS via Telnyx with calendar and Jira integration. Real-time WebSocket speech transcription. Free tier: 10 min voice + 100 SMS/day.
 
+### Social Media
+
+- **[tweetclaw](https://github.com/Xquik-dev/tweetclaw)** - X/Twitter automation. Post tweets, reply, like, retweet, follow, DM, plus a background poller for mentions and account monitors. Install via `openclaw plugins install @xquik/tweetclaw`.
+
 ### Smart Home & IoT
 
 - **[OpenClawHomeAssistant](https://github.com/techartdev/OpenClawHomeAssistant)** — Home Assistant add-on to run OpenClaw directly in your HA instance with full entity-level access for smart home control.
