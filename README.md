@@ -212,6 +212,8 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 - **[hyperspell-openclaw](https://github.com/hyperspell/hyperspell-openclaw)** — Context and memory enhancement via Hyperspell. Syncs markdown files from agent workspace memory to Hyperspell for enhanced context.
 - **[openclaw-cron-scheduler](https://github.com/bmbsystemsdir/openclaw-cron-scheduler)** — Schedule recurring agent tasks with cron expressions. Persistent across restarts with SQLite-backed job storage.
 - **[openclaw-i18n-helper](https://github.com/AkariGroup/openclaw-i18n-helper)** — Internationalization helper — extract translatable strings, check for missing translations, and generate locale files.
+- **[prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset)** — MCP server routing image-generation prompts to 30+ models (DALL-E, Stable Diffusion, Flux, Midjourney) through a single interface. `npm install -g prompt-to-asset`
+- **[unslop](https://github.com/MohamedAbdallah-14/unslop)** — Strip AI writing patterns from text — removes filler phrases, hedging language, and generic constructs to produce cleaner content. `npm install -g unslop`
 
 ---
 
