@@ -107,6 +107,7 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 | [openclaw-memory-mem0](https://github.com/serenichron/openclaw-memory-mem0) | serenichron | — | Replaces default LanceDB memory backend with Mem0's semantic extraction pipeline. Provides `memory_recall`, `memory_store`, `memory_forget` tools with auto-recall and auto-capture lifecycle hooks. |
 | [MemOS Cloud Plugin](https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin) | MemTensor | 283 | Recalls memories from MemOS Cloud before each run and saves conversations after each run. Supports multi-agent architectures with isolated memory per `agent_id`. |
 | [Unified Memory](https://github.com/bmbsystemsdir/openclaw-unified-plugins) | bmbsystemsdir | — | Combines Graphiti knowledge graphs with Beads temporal memory into a single plugin for rich context management. |
+| [open-upsp](https://github.com/cx2002302-lang/open-upsp) | cx2002302-lang | — | Zettelkasten knowledge graph with progressive persona evolution. Persistent memory via ZK plugin, relation mapping, and session-end distillation. 207 tests, 94% coverage. |
 
 ### Security & Governance
 
