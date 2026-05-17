@@ -41,6 +41,7 @@ Send a Slack message to #general saying "hello from openclaw"
   - [Meta / Self-Improvement](#meta--self-improvement)
 - [Other Notable Plugins](#other-notable-plugins)
   - [Messaging & Channels](#messaging--channels)
+  - [Social Media](#social-media)
   - [Smart Home & IoT](#smart-home--iot)
   - [Mobile](#mobile)
   - [Payments & Web3](#payments--web3)
@@ -157,7 +158,7 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 
 ### Social Media
 
-- **[tweetclaw](https://github.com/Xquik-dev/tweetclaw)** - X/Twitter automation. Post tweets, reply, like, retweet, follow, DM, plus a background poller for mentions and account monitors. Install via `openclaw plugins install @xquik/tweetclaw`.
+- **[TweetClaw](https://github.com/Xquik-dev/tweetclaw)** - X/Twitter automation for OpenClaw. Search and scrape tweets, search replies, post tweets and replies, export followers, manage media, monitor tweets, and run giveaway draws. By [@Xquik-dev](https://github.com/Xquik-dev). Install via `openclaw plugins install @xquik/tweetclaw`.
 
 ### Smart Home & IoT
 
