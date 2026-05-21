@@ -245,3 +245,5 @@ Please make sure the plugin:
 ## License
 
 [CC0 1.0 Universal](LICENSE)
+
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Free open-source monitoring dashboard for OpenClaw AI agents — token usage, session tracking, 7-day trends, multi-model support.
