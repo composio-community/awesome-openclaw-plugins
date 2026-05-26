@@ -107,6 +107,7 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 | [openclaw-memory-mem0](https://github.com/serenichron/openclaw-memory-mem0) | serenichron | — | Replaces default LanceDB memory backend with Mem0's semantic extraction pipeline. Provides `memory_recall`, `memory_store`, `memory_forget` tools with auto-recall and auto-capture lifecycle hooks. |
 | [MemOS Cloud Plugin](https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin) | MemTensor | 283 | Recalls memories from MemOS Cloud before each run and saves conversations after each run. Supports multi-agent architectures with isolated memory per `agent_id`. |
 | [Unified Memory](https://github.com/bmbsystemsdir/openclaw-unified-plugins) | bmbsystemsdir | — | Combines Graphiti knowledge graphs with Beads temporal memory into a single plugin for rich context management. |
+| [formative-memory](https://github.com/jarimustonen/formative-memory) | jarimustonen | — | Biologically-inspired memory plugin. Pre-response auto-recall (hybrid BM25 + embedding with weighted associations), post-response provenance-based reinforcement that strengthens only memories that actually influenced the reply, and a nightly consolidation ("sleep") loop that decays, prunes, and LLM-merges memories. Content-addressed (SHA-256) objects, single-file SQLite + sqlite-vec. |
 
 ### Security & Governance
 
