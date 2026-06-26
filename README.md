@@ -144,6 +144,7 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 |--------|--------|-------|-------------|
 | [@composio/openclaw-plugin](https://www.npmjs.com/package/@composio/openclaw-plugin) | Composio | — | Access 1000+ third-party tools (Gmail, Slack, GitHub, Notion, Linear, Jira, HubSpot, Salesforce, Google Drive, etc.) via Composio's MCP server. Single plugin, one API key. |
 
+- [AgentsCoin MCP](https://github.com/axiosdevs/agentscoin-mcp) - Agent wallet on AgentsCoin: create wallet, mine, pay, create/trade tokens (MCP server, works via OpenClaw MCP client).
 ## Other Notable Plugins
 
 ### Messaging & Channels
