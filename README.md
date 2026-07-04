@@ -167,6 +167,7 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 ### Payments & Web3
 
 - **[openclaw-crossmint-plugin](https://github.com/Crossmint/openclaw-crossmint-plugin)** — On-chain wallet and payments via Crossmint smart wallets. Agents can manage balances, send tokens, and buy products using stablecoins.
+- **[SpraayBatch](https://github.com/plagtech/SpraayBatch)** — Batch USDC payments on Base. Pay up to 200 recipients in one atomic transaction, gasless via CDP Paymaster. Non-custodial auto-wallets and per-agent budget caps. `openclaw plugins install clawhub:spraay-batch` · [ClawHub](https://clawhub.ai/plagtech/plugins/spraay-batch)
 
 ### Health & Wellness
 
