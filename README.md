@@ -223,6 +223,7 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 - [vincentkoc/awesome-openclaw](https://github.com/vincentkoc/awesome-openclaw) — Another community-curated list
 - [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) — Skills-focused list
 - [SamurAIGPT/awesome-openclaw](https://github.com/SamurAIGPT/awesome-openclaw) — Broader ecosystem list
+- [Open Index](https://github.com/DrDroidLab/open-index) — Structured context graphs and an MCP server for domain-specific agents, with a portable OpenClaw setup skill
 
 ---
 
