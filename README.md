@@ -143,6 +143,7 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 | Plugin | Author | Stars | Description |
 |--------|--------|-------|-------------|
 | [@composio/openclaw-plugin](https://www.npmjs.com/package/@composio/openclaw-plugin) | Composio | — | Access 1000+ third-party tools (Gmail, Slack, GitHub, Notion, Linear, Jira, HubSpot, Salesforce, Google Drive, etc.) via Composio's MCP server. Single plugin, one API key. |
+| [Univer Office for OpenClaw](https://github.com/dream-num/openclaw-univer-office) | dream-num | — | Gives OpenClaw agents a collaborative Univer Workspace for spreadsheets, documents, slides, boards, PDFs, and relational tables, with review worktrees and self-hosted deployment. |
 
 ## Other Notable Plugins
 
