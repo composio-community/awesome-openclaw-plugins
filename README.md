@@ -167,6 +167,7 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 ### Payments & Web3
 
 - **[openclaw-crossmint-plugin](https://github.com/Crossmint/openclaw-crossmint-plugin)** — On-chain wallet and payments via Crossmint smart wallets. Agents can manage balances, send tokens, and buy products using stablecoins.
+- **[allblu Crypto Swap Quotes](https://www.npmjs.com/package/openclaw-plugin-allblu-crypto-swap-quotes)** — Read-only OpenClaw plugin for live cross-chain crypto swap quotes across Bitcoin, Ethereum, Solana, Tron, BNB and more. View supported assets and networks without connecting wallets or executing swaps.
 
 ### Health & Wellness
 
