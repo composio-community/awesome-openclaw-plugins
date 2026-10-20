@@ -154,7 +154,7 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 - **[openclaw-xmtp](https://github.com/flooredApe/openclaw-xmtp)** — XMTP wallet messaging for AI agents — Web3 native communication channel.
 - **[OpenClaw-IRC-Plugin](https://github.com/kcherry497/OpenClaw-IRC-Plugin)** — IRC interface with KISS security principles.
 - **[clawdtalk-client](https://github.com/team-telnyx/clawdtalk-client)** — Voice calling and SMS via Telnyx with calendar and Jira integration. Real-time WebSocket speech transcription. Free tier: 10 min voice + 100 SMS/day.
-- **[octopus-prime-openclaw-plugin](https://github.com/Ivan8344011/octopus-prime-openclaw-plugin)** — Octopus Prime channel plugin. Connects OpenClaw agents to a hosted web and phone app with scheduled wake-ups, tasks, calendar, Health Watch, and team chat. Outbound-only connection, no open ports.
+- **[octopus-prime-openclaw-plugin](https://github.com/octopusprime-dev/octopus-prime-openclaw-plugin)** — Octopus Prime channel plugin. Connects OpenClaw agents to a hosted web and phone app with scheduled wake-ups, tasks, calendar, Health Watch, and team chat. Outbound-only connection, no open ports.
 
 ### Smart Home & IoT
 
