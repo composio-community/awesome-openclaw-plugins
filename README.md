@@ -198,6 +198,7 @@ Each plugin follows the standard OpenClaw plugin structure (`openclaw.plugin.jso
 
 - **[openclaw-eslint-runner](https://github.com/JoshuaKGoldberg/openclaw-eslint-runner)** — Run ESLint on changed files and surface fixable issues. Auto-fix mode available for safe rules.
 - **[openclaw-ruff-lint](https://github.com/charliermarsh/openclaw-ruff-lint)** — Python linting via Ruff — fast lint + format checks with auto-fix for the current diff.
+- **[ponder](https://github.com/Quinnod345/ponder)** - Coverage-gated, multi-pass code review ledger and 4-voice deliberation skill (`clawhub install ponder`) by Quinnod345 that prevents agents from stopping early or rubber-stamping changes.
 
 ### Analytics & Logging
 
